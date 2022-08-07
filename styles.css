@@ -60,7 +60,7 @@ body {
   height: 100%;
   margin: -10px 0px 0px -10px;
   border: 10px solid #9612eb;
-  backface-visibility: hidden;
+  /* backface-visibility: hidden; */
   background-color: #9612eb;
   /* background-image: url($cover-image);
 	 */
@@ -86,7 +86,7 @@ body {
   height: 100%;
   border: 10px solid #9612eb;
   margin: -10px 0px 0px -10px;
-  backface-visibility: visible;
+  /* backface-visibility: visible; */
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
   transform-style: preserve-3d;
   transform-origin: 0% 50%;
@@ -104,4 +104,8 @@ body {
 .imgset img {
   box-shadow: 0px 6px 11px 7px rgba(0, 0, 0, 0.22);
   border-radius: 5px;
+}
+
+.click {
+  background-color: white;
 }
